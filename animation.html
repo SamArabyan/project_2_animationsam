@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1> My Animations</h1>
+    <svg width="100%" viewBox="0 0 200 100">
+      <rect x="15" y="36" width="20" height="20" fill="red">
+    <animate attributeName="x" from="15" to="150" begin="test1.end" dur="7s" id="test2" fill="freeze"/>
+  </rect>
+  <line x1="8" y1="49" x2="38" y2="99" stroke="blue" stroke-width="6">
+    <animate attributeName="x1" from="8" to="12" begin="click" dur="3" id="test1"/>
+  </line>
+  <circle cx="150" cy="47" r="20" fill="green">
+    <animate attributeName="fill" from="green" to="red" dur="4s" begin="test2.end" fill="freeze"/>
+  </circle>
+  <rect x="2" y="1" width="20" height="20" fill="pink">
+    <animate attributeName="x" from="2" to="100" dur="10s" repeatcount="indefinite"/>
+  </rect>
+  <circle cx="90" cy=11 r="10" fill="lime">
+    <animate attributename="cy" from="11" to="50" begin="click" dur="5s"/>
+  </circle>
+    </svg>
+  </body>
+</html>

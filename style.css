@@ -1,0 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz';
+svg {
+  background-color: gray;
+}
+h1 {
+  color: red;
+}
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
